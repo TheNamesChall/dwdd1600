@@ -1,0 +1,23 @@
+.oxygen-light {
+    font-family: "Onest", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .oxygen-regular {
+    font-family: "Onest", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .oxygen-bold {
+    font-family: "Onest", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  body {
+    font-family: "Onest", serif;
+    font-weight: 300;
+    font-style: normal;
+}  
