@@ -1,23 +1,130 @@
-.oxygen-light {
-    font-family: "Onest", serif;
-    font-weight: 300;
-    font-style: normal;
-  }
+.onest-light {
+  font-family: "Onest", serif;
+  font-weight: 300;
+  font-style: normal;
+}
   
-  .oxygen-regular {
-    font-family: "Onest", serif;
-    font-weight: 400;
-    font-style: normal;
-  }
+.onest-regular {
+  font-family: "Onest", serif;
+  font-weight: 400;
+  font-style: normal;
+}
   
-  .oxygen-bold {
-    font-family: "Onest", serif;
-    font-weight: 700;
-    font-style: normal;
-  }
+.onest-bold {
+  font-family: "Onest", serif;
+  font-weight: 700;
+  font-style: normal;
+}
 
-  body {
-    font-family: "Onest", serif;
-    font-weight: 300;
-    font-style: normal;
+body {
+  background-color: #c2dbf8;
+}
+
+/* Header section style */
+header span {
+  margin: 0;
+  color: #5083b8;
+  letter-spacing: .5px;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+/* flexbox style */
+.flex-container {
+  display: flex;
+  background-color: #5083b8;
+}
+
+.flex-container > div {
+  background-color: #e4ddd1;
+  margin: 10px;
+  font-size: 30px;
+}
+
+/* nav style */
+nav {
+  background-color: #e4ddd1;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0 2vw;
+  margin: 0;
+  display: flex;
+}
+
+nav a {
+  font-size: 1.1rem;
+  text-decoration: none;
+  color: #1c3e63;
+  font-weight: 700;
+  display: block;
+  padding: .83rem 2rem;
+}
+
+nav a:hover {
+  color: #53dcd8;
+}
+
+/* body style */
+body {
+  font-family: "Onest", serif;
+  font-weight: 300;
+  font-style: normal;
 }  
+
+main h1 {
+  color: #1c3e63;
+}
+
+main h2 {
+  color: #1c3e63;
+  margin-bottom: .2rem;
+}
+
+main p {
+  color: #333333;
+  margin: 0;
+}
+
+main ul {
+  list-style-type: circle;
+}
+
+main ul li {
+  line-height: 125%;
+  margin-bottom: .5rem;
+  font-size: .9rem;
+}
+
+main ol {
+  padding: .5rem 2.6rem;
+  background-color: #e4ddd1;
+}
+
+main a {
+  color: #1c3e63;
+}
+
+main a:hover {
+  color: #53dcd8;
+}
+
+main address {
+  font-style: normal;
+  background-color: #e4ddd1;
+  width: 12.5rem;
+  padding: .5rem;
+  border: 5px solid #1c3e63;
+  border-style:double;
+  border-radius: .7rem;
+}
+
+/* footer style */
+footer {
+  background-color: #e4ddd1;
+  text-align: center;
+  color: #1c3e63;
+  padding: 1rem 0;
+  font-size: .8rem;
+}
