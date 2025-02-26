@@ -73,6 +73,10 @@ body {
   font-style: normal;
 }  
 
+main {
+  padding: 1rem 2vw;
+}
+
 main h1 {
   color: #1c3e63;
 }
@@ -118,6 +122,17 @@ main address {
   border: 5px solid #1c3e63;
   border-style:double;
   border-radius: .7rem;
+}
+
+main dl dt {
+  color: #1c3e63;
+  font-weight: 700;
+  margin-left: 24px;
+}
+
+main dl dd {
+  font-size: .9rem;
+  margin-left: 40px;
 }
 
 /* footer style */
