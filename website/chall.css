@@ -142,7 +142,7 @@ div.gallery {
 
 figure.home {
   height: auto;
-  width: 30%;
+  max-width: 100%;
   margin: 0 0 0 2%;
   float: right;
 }
