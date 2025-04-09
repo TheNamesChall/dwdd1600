@@ -147,6 +147,50 @@ figure.home {
   float: right;
 }
 
+/* Form styling stuff here */
+.myform fieldset {
+  border: 1px solid #1c3e63;
+  border-radius: .7rem;
+  margin-bottom: 1rem;
+}
+
+.myform legend {
+  color: #1c3e63;
+  font-size: .9rem;
+}
+
+.myform label, select, [type=text], [type=email], [type=tel], textarea {
+  display: block;
+}
+
+.myform label {
+  margin: .7rem;
+}
+
+.myform [type=text], [type=email], [type=tel], textarea, select {
+  border: 1px solid #333333;
+  padding: .3rem;
+  width: 250px;
+  border-radius: .4rem;
+}
+
+.myform textarea {
+  height: 6rem;
+}
+
+.myform :required {
+  background-color: rgba(83, 220, 216, 0.4);
+}
+
+.myform [type=submit] {
+  background-color: #1c3e63;
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: .4rem;
+  margin: 1rem 0 0;
+}
+
 /* footer style */
 footer {
   background-color: #e4ddd1;
