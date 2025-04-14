@@ -198,6 +198,17 @@ figure.home {
   float: right;
 }
 
+.hero {
+  width: 100%;
+  margin: 0;
+}
+
+.hero img {
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
+
 /* gallery style */
 
 .gallery section {
